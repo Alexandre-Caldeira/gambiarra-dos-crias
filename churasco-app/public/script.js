@@ -1,9 +1,8 @@
 // public/script.js - Conteúdo ATUALIZADO para usar o Firestore diretamente
 
 // Importa as funções necessárias do SDK do Firebase
-import { initializeApp } from "[https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js](https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js)";
-import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query, orderBy } from "[https://www.gstatic.com/firebasejs/10.0.0/firebase-firestore.js](https://www.gstatic.com/firebasejs/10.0.0/firebase-firestore.js)";
-
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js";
+import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query, orderBy } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-firestore.js";
 // COLOQUE AQUI O SEU OBJETO firebaseConfig QUE VOCÊ COPIOU DO CONSOLE DO FIREBASE
 const firebaseConfig = {
   apiKey: "AIzaSyDNrtiyg5QupuJbaU2Lm9Bem77eNzgyKuI", // SEU_API_KEY
